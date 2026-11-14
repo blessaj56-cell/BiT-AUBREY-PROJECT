@@ -1,0 +1,38 @@
+.nav {
+    width: 95%;
+    height: 70px;
+    display: flex;
+    background-color:  rgb(231, 166, 86);
+    border-radius: 35px;
+    justify-self: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    z-index: 10;
+    
+    
+}
+
+.nav h2 {
+    margin-left: 50px;
+}
+
+.nav nav {
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 50px; 
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-size: 20px;
+    color: azure;
+
+}
